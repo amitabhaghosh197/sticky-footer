@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <title>Demo</title>
+        <link href="css/design.css" rel="stylesheet" type="text/css" media="screen" />
+        <link href='http://fonts.googleapis.com/css?family=Dosis:400,200' rel='stylesheet' type='text/css'>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+        <script type="text/javascript" src="sticky_footer.js"></script>
+        <script>
+            $(document).ready(function(){
+                $("#usual1 ul").stickyFooter();
+            });
+        </script>
+    </head>
+    <body>
+        <h1 class="info-title">Sticky footer demo</h1>
+        <div id="sticky-footer">
+    <div id="usual1" class="usual">
+                <ul class="close"> 
+                    <li><a href="#tab1">TAB 1</a></li> 
+                    <li><a href="#tab2">TAB 2</a></li>
+                </ul> 
+                <div id="tabs_bg">
+                    <div class="box" id="tab1">
+                        <div class="footer_box_1">
+                            <h2>INFO</h2>
+                            <p>
+                                Reservation info<br/>
+                                Lep Bul 1, 34000 Kragujevac<br />
+                                tel:(01)521 15 15<br />
+                                fax:(01)521 15 25<br />
+                            </p>
+                            <p>
+                                <a href="mailto:markokrg@gmail.com">> Write us at info@stickyfooter.rs</a><br />
+                                > Where we are?
+                            </p>
+                        </div>
+                        
+                        <div class="footer_box_2">
+                            
+                            <div>
+                                <h2>NEW</h2>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit 
+                                    Aenean commodo ligula eget dolor.<br />
+                                     Aenean massa.<br />
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div class="footer_box_3">
+                            <h2>BUSINESS HOURS:</h2>
+                            <p>
+                                mon - sut: 12.00 - 22.00<br />
+                            </p>
+                            <p>
+                                > Za dodatne info pokličite na: (01)521 15 15
+                            </p>
+                        </div>
+                        
+                    </div> 
+                    <div class="box" id="tab2">
+                        <form action="" method="post" id="footerForm">
+                            <div id="footerBox">
+                                <img src="img/Caffeine-icon.png" alt="icon" />
+                                <img src="img/Application-Loader-icon.png" alt="icon" />
+                                <img src="img/iBooks-Author-icon.png" alt="icon" />
+                                <img src="img/intal-Xcode-icon.png" alt="icon" />
+                            </div>
+                        </form>
+                    </div> 
+                </div>
+            </div>
+</div>
+    </body>
+</html>
